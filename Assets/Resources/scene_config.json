@@ -1,0 +1,39 @@
+[
+  {
+    "sceneName": "startup",
+    "type": "ui",
+    "setActive": false
+  },
+  {
+    "sceneName": "main",
+    "type": "ui",
+    "setActive": false
+  },
+  {
+    "sceneName": "level_1_part",
+    "type": "dependency",
+    "setActive": false
+  },
+  {
+    "sceneName": "level_1",
+    "type": "world",
+    "setActive": true,
+    "requires": [{
+        "sceneName": "main"
+      }
+    ],
+    "dependencies": [{
+        "sceneName": "level_1_part"
+      }
+    ]
+  },
+  {
+    "sceneName": "level_2",
+    "type": "world",
+    "setActive": true,
+    "requires": [{
+        "sceneName": "main"
+      }
+    ]
+  }
+]
