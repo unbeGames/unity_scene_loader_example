@@ -1,4 +1,4 @@
-# Unity async loader example
+# Unity async scene loader example
 
 This is an example implementation of Scene Loader that uses Unity Scene Manager API. All scenes are loaded asynchronously and additively. 
 
@@ -15,3 +15,7 @@ This is an example implementation of Scene Loader that uses Unity Scene Manager 
 * All necessary for Scene Loader scripts located in `Assets/scripts/unbeGames`
 * Do not forget to add new scenes into Unity build settings and `scene_config`.
 * API use examples can be founded in `ApplicationController`
+
+## License
+
+MIT
